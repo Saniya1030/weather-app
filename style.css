@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #7b5e57, #d8c3a5);
+  margin: 0;
+  min-height: 100vh;
+  padding: 20px;
+  color: #3e2f2f;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #3e2f2f;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  background-color: #a98274;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #f2e2ce;
+  border: 2px solid #7b5e57;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4e342e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cell:hover {
+  transform: scale(1.05);
+  background-color: #f6d5b3;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  color: #3e2f2f;
+  font-weight: 600;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #8d6e63;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #6d4c41;
+}
+
+
+.status {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
